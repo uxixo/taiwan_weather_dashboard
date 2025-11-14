@@ -12,13 +12,8 @@ st.title("台灣氣象資料 Dashboard")
 # -----------------------------
 LOCATION = st.selectbox("選擇城市", ['臺北市', '臺中市', '高雄市'])
 
-# -----------------------------
-# 讀取 API Key（使用 Streamlit Secrets）
-# -----------------------------
-# 在 Streamlit Cloud 設定 Secrets
-# [api]
-# KEY = "你的中央氣象署授權碼"
-API_KEY = st.secrets["api"]["KEY"]
+
+API_KEY = "CWA-D099A3FC-C644-4A96-AFF0-365F65BD3B23"
 
 # -----------------------------
 # API URL
